@@ -1,3 +1,15 @@
-timestamp,model_type,patient_name,prediction,probability,image_name,confidence,has_tumor,uncertain,age_receveur_TR,sexe_receveur_M,obésité_pre_TR_receveur,HTA_pre_TR_receveur,glycémie_pre_TR_R,HbA1c_pre_TR_R,durée_dialyse_année,age_donneur
-2026-05-16 13:03:33,brain_cancer,Anonyme,meningioma,71.4%,OIP.webp,0.7136972546577454,True,False,,,,,,,,
-2026-05-16 13:04:23,ptdm,Anonyme,0,40.8%,,,,,45.0,1.0,1.0,0.0,1.0,6.5,2.0,47.0
+timestamp,model_type,patient_name,prediction,probability,image_name,confidence,has_tumor,uncertain,age_receveur_TR,sexe_receveur_M,obésité_pre_TR_receveur,HTA_pre_TR_receveur,glycémie_pre_TR_R,HbA1c_pre_TR_R,durée_dialyse_année,age_donneur,disease_detected,age,sex,on_thyroxine,query_on_thyroxine,on_antithyroid_medication,sick,pregnant,thyroid_surgery,I131_treatment,query_hypothyroid,query_hyperthyroid,lithium,goitre,tumor,hypopituitary,psych,TSH,T3,TT4,T4U,FTI,TSH_abnormal,TT4_abnormal,T3_abnormal,FTI_abnormal,hormone_score,T4U_TT4_ratio
+2026-05-16 13:03:33,brain_cancer,Anonyme,meningioma,71.4%,OIP.webp,0.7136972546577454,True,False,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-16 13:04:23,ptdm,Anonyme,0,40.8%,,,,,45.0,1.0,1.0,0.0,1.0,6.5,2.0,47.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-22 12:03:50,eye_disease,Anonyme,Bulging_Eyes,42.3%,yeah.jpg,0.4227246057583751,,,,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-22 12:30:20,brain_cancer,Anonyme,glioma,94.7%,Te-gl_0015.jpg,0.9474563598632812,True,False,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-22 12:34:10,brain_cancer,Anonyme,glioma,94.7%,Te-gl_0015.jpg,0.9474563598632812,True,False,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-22 12:39:16,brain_cancer,Anonyme,glioma,93.8%,Te-gl_0011.jpg,0.938255786895752,True,False,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-22 13:52:06,brain_cancer,Anonyme,glioma,93.8%,Te-gl_0011.jpg,0.938255786895752,True,False,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-22 13:55:44,eye_disease,Anonyme,Bulging_Eyes,43.4%,aya05.jpg,0.4343890559796301,,,,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-22 13:56:42,eye_disease,Anonyme,Bulging_Eyes,42.7%,eyes.jpg,0.4265884912325169,,,,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-23 20:18:52,brain_cancer,Anonyme,glioma,94.7%,Te-gl_0015.jpg,0.9474563598632812,True,False,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-23 20:20:38,ptdm,Anonyme,0,22.4%,,,,,32.0,0.0,1.0,1.0,1.0,5.1,0.0,25.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-23 20:21:47,eye_disease,Anonyme,Glaucoma,74.6%,eyes.jpg,0.7460712907247503,,,,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-23 20:23:25,eye_disease,Anonyme,Crossed_Eyes,45.5%,eyes.jpg,0.4550891065935192,,,,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-23 20:27:39,thyroid,Anonyme,0,2.3%,,,,,,,,,,,,,,26.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.2,1.7,103.0,1.01,110.0,0.0,0.0,0.0,0.0,0.0,0.00980582514751626
